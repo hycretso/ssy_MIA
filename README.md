@@ -1,1 +1,2 @@
 # ssy_MIA
+python new_run.py --target_model "EleutherAI/pythia-6.9b" --ref_model "EleutherAI/pythia-70m" --output_dir ./output --dataset "wikimia" --sub_dataset "128" --num_shots 7 --surrogate_model gpt2-xl
