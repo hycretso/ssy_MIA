@@ -20,7 +20,7 @@ class Options():
         self.parser.add_argument('--pass_window', type=bool, default=True, help="whether to pass the window to the model.")
         self.parser.add_argument("--synehtic_prefix", type=bool, default=False, help="whether to use synehtic prefix.")
         self.parser.add_argument("--api_key_path", type=str, default=None, help="path to the api key file for OpenAI API if using synehtic prefix.")
-
+        self.parser.add_argument('--surrogate_model', type=str, default="openai-community/gpt2-xl")
 
 
 

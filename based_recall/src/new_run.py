@@ -350,8 +350,7 @@ if __name__ == "__main__":
     fix_seed(42)
     args = Options()
     args = args.parser.parse_args()
-    os.environ['HF_ENDPOINT'] = 'hf-mirror.com'
-    os.environ["TOKENIZERS_PARALLELISM"] = "true"
+
     output_dir = args.output_dir
     dataset = args.dataset
     target_model = args.target_model
